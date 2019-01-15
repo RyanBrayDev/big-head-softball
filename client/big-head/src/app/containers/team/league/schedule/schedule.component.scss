@@ -1,0 +1,28 @@
+.editPanel {
+  float: right;
+  button{
+    padding: 0px;
+    min-width: 35px;
+  }
+}
+
+.align-left{
+  float: left;
+}
+
+.member-row{
+  width: 100%;
+}
+
+
+.managers{
+  display: flex;
+  flex-flow: wrap;
+  padding: 50px;
+  width: 100%;
+}
+
+.manager{
+  padding: 10px;
+  flex: 0 0 40%;
+}

@@ -1,0 +1,18 @@
+<div cdkDropList class="player-list" (cdkDropListDropped)="drop($event)">
+  <div class="player-box" *ngFor="let player of lineup" cdkDrag>
+    {{player.name}}
+    <mat-list>
+      <mat-list-item>positions</mat-list-item>
+    </mat-list>
+  </div>
+</div>
+
+<div class="button-container">
+  <button (click)="close()" type="button" mat-flat-button>Cancel</button>
+  <button (submit)="onSubmit()" type="submit" mat-flat-button>Save</button>
+</div>
+
+
+<!--<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">-->
+  <!--<div class="example-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>-->
+<!--</div>-->

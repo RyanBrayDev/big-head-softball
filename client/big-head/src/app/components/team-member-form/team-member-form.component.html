@@ -1,0 +1,29 @@
+<h2>New Team Member</h2>
+
+<form [formGroup]="teamMemberForm" (ngSubmit)="onSubmit()" class="form-container">
+  <input type="hidden" formControlName="id">
+  <mat-form-field>
+    <input matInput placeholder="Name" type="text" formControlName="name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select placeholder="Status" formControlName="status">
+      <mat-option *ngFor="let status of playingStatuses" [value]="status">{{status}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Amount Owed" type="text" formControlName="amountOwed">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Amount Paid" type="text" formControlName="amountPaid">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Email" type="text" formControlName="email">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Phone" type="text" formControlName="phone">
+  </mat-form-field>
+  <div class="button-container">
+    <button (click)="close()" type="button" mat-flat-button>Cancel</button>
+    <button (submit)="onSubmit()" type="submit" mat-flat-button>Save</button>
+  </div>
+</form>
