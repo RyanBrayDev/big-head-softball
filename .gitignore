@@ -1,15 +1,19 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+/client/dist
+/client/tmp
+/client/out-tsc
 
-# dependencies
-/node_modules
-/client/big-head/node_modules
-/express-server/node_modules
-/server/node_modules
+# misc
+/client/.sass-cache
+/client/connect.lock
+/client/coverage
+/client/libpeerconnection.log
+/client/npm-debug.log
+/client/yarn-error.log
+/client/testem.log
+/client/typings
 
 # IDEs and editors
 /.idea
@@ -27,16 +31,11 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
 # System Files
 .DS_Store
 Thumbs.db
+
+# dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
