@@ -7,6 +7,9 @@
 
 # dependencies
 /node_modules
+/client/big-head/node_modules
+/express-server/node_modules
+/server/node_modules
 
 # IDEs and editors
 /.idea

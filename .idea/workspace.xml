@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d60a55-a8a7-432f-9d92-32d6107dce32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
@@ -20,78 +18,158 @@
     <session id="510595752">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="11" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="39" />
-          <entry key="js" value="4" />
-          <entry key="json" value="5" />
-          <entry key="scss" value="16" />
-          <entry key="ts" value="86" />
+          <entry key="html" value="86" />
+          <entry key="js" value="7" />
+          <entry key="json" value="16" />
+          <entry key="md" value="1" />
+          <entry key="scss" value="41" />
+          <entry key="ts" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="39" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="16" />
-          <entry key="TypeScript" value="86" />
-          <entry key="tsconfig" value="3" />
+          <entry key="HTML" value="86" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SCSS" value="41" />
+          <entry key="TypeScript" value="179" />
+          <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="14" />
-          <entry key="html" value="1586" />
-          <entry key="js" value="720" />
-          <entry key="json" value="5" />
-          <entry key="scss" value="253" />
-          <entry key="ts" value="3802" />
+          <entry key="html" value="2532" />
+          <entry key="js" value="982" />
+          <entry key="json" value="14" />
+          <entry key="scss" value="336" />
+          <entry key="ts" value="7497" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="1586" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="720" />
-          <entry key="SCSS" value="253" />
-          <entry key="TypeScript" value="3802" />
+          <entry key="HTML" value="2532" />
+          <entry key="JSON" value="13" />
+          <entry key="JavaScript" value="982" />
+          <entry key="SCSS" value="336" />
+          <entry key="TypeScript" value="7497" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="4" />
-          <entry key="TsLintLanguageService" value="4" />
+          <entry key="Angular2LanguageService" value="7" />
+          <entry key="TsLintLanguageService" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/team.service.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/e2e/src/app.e2e-spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/e2e/tsconfig.e2e.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/big-head/e2e/src/app.po.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!block;n#build#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#serve#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#extract-i18n#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+                <element signature="n#!!block;n#lint#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/e2e/protractor.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/big-head/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -109,7 +187,23 @@
       <find>css</find>
       <find>scs</find>
       <find>connect(</find>
+      <find>cdk</find>
+      <find>create</find>
+      <find>roster</find>
+      <find>wd</find>
+      <find>jasmine</find>
+      <find>serve</find>
+      <find>seleniumaddress</find>
+      <find>e2e</find>
+      <find>4200</find>
+      <find>serve</find>
+      <find>big-head-e2e</find>
+      <find>settime</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/client/big-head</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,45 +211,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/big-head/angular.json" />
-        <option value="$PROJECT_DIR$/client/big-head/tsconfig.json" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/models/game.model.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/models/player.model.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/models/team.model.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/tslint.json" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/index.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/services/emitter.service.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.css" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/container.module.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.scss" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/header/header.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/models/team-member.model.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.scss" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.scss" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.scss" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/styles.scss" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/components.module.ts" />
-        <option value="$PROJECT_DIR$/server/server.js" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.html" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.scss" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-summary/team-summary.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-summary/team-summary.component.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.ts" />
-        <option value="$PROJECT_DIR$/client/big-head/src/app/models/team-member.model.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/roster/roster.component.scss" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/manager-panel/manager-panel.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/roster/roster.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/models/game.model.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/game-form/game-form.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-member-form/team-member-form.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/game-form/game-form.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-member-form/team-member-form.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.html" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/models/league.model.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/roster/roster.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-summary/team-summary.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-summary/team-summary.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/manager-panel/manager-panel.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/league-selector/league-selector.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/league-selector/league-selector.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/components.module.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/models/player.model.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/models/team.model.ts" />
         <option value="$PROJECT_DIR$/client/big-head/src/app/services/team.service.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.scss" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.scss" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.scss" />
+        <option value="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.html" />
+        <option value="$PROJECT_DIR$/client/big-head/e2e/src/app.po.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/e2e/src/app.e2e-spec.ts" />
+        <option value="$PROJECT_DIR$/client/big-head/package.json" />
+        <option value="$PROJECT_DIR$/client/big-head/e2e/protractor.conf.js" />
       </list>
     </option>
   </component>
@@ -186,10 +292,10 @@
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="957" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -215,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,121 +344,21 @@
               <item name="big-head" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
               <item name="big-head" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="big-head" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="add-game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="add-team-member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="roster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="team-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="big-head" type="b2602c69:ProjectViewProjectNode" />
-              <item name="big-head" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,6 +373,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/big-head/src/app/containers/team-manager" />
       <recent name="$PROJECT_DIR$/client/big-head/src/app/containers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client/big-head/src/app/components" />
@@ -398,16 +404,18 @@
       <workItem from="1539787913086" duration="3634000" />
       <workItem from="1539803076631" duration="25702000" />
       <workItem from="1539903993130" duration="11678000" />
-      <workItem from="1539979384454" duration="4788000" />
+      <workItem from="1539979384454" duration="39180000" />
+      <workItem from="1540825828981" duration="2000000" />
+      <workItem from="1541101575336" duration="5740000" />
+      <workItem from="1541179254863" duration="11480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45802000" />
+    <option name="totallyTimeSpent" value="99414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -422,7 +430,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29081634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30481285" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +441,13 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
+        <option value="$USER_HOME$/gitlab/spectrum-web/shared/node_modules/karma/config.tpl.js" />
         <option value="$PROJECT_DIR$/client/big-head/node_modules/karma/config.tpl.js" />
+        <option value="$USER_HOME$/gitlab/spectrum-web/consumer/charter-net-pages/spectrum/node_modules/spectrum-js-analytics-wrapper/ngx/index.js" />
+        <option value="$USER_HOME$/gitlab/spectrum-web/consumer/charter-net-pages/spectrum/node_modules/spectrum-js-analytics-wrapper/ngx/analytics.component.js" />
+        <option value="$USER_HOME$/gitlab/spectrum-web/consumer/charter-net-pages/spectrum/node_modules/spectrum-js-analytics-wrapper/ngx/analytics.service.js" />
+        <option value="$USER_HOME$/gitlab/spectrum-web/consumer/charter-net-pages/spectrum/node_modules/spectrum-js-analytics-wrapper/ngx/analytics.directive.js" />
+        <option value="$USER_HOME$/gitlab/spectrum-web/consumer/charter-net-pages/spectrum/node_modules/spectrum-js-analytics-wrapper/ngx/analytics.module.js" />
       </list>
     </option>
   </component>
@@ -441,319 +455,323 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-member-form/team-member-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/league.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app-routing.module.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/index.html">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-summary/team-summary.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/emitter.service.ts" />
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/emitter.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-summary/team-summary.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/manager-panel/manager-panel.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/node_modules/@angular/router/src/config.d.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="354" column="4" selection-start-line="354" selection-start-column="4" selection-end-line="354" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/league-selector/league-selector.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/league-selector/league-selector.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/league-selector/league-selector.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/roster/roster.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/roster/roster.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/game-form/game-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/components.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/game-form/game-form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/components.module.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/.service.ts" />
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="124" column="4" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/container.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/container.module.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/team-selector/team-selector.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/player.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/header/header.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/game.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="18" />
+          <caret selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-game/add-game.component.scss">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/team.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-summary/team-summary.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/lineup/lineup.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/styles.scss">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/manager-panel/manager-panel.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/manager-panel/manager-panel.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/team-member.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/container.module.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/container.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/schedule/schedule.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/team.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/e2e/src/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/big-head/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#build#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#serve#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#extract-i18n#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#lint#0;n#!!block;n#architect#0;n#!!block;n#big-head#0;n#!!block;n#projects#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/components.module.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/e2e/tsconfig.e2e.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/containers/team-manager/team-manager.component.html">
+    <entry file="file://$PROJECT_DIR$/client/big-head/e2e/protractor.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="115" column="60" lean-forward="true" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/team.service.spec.ts">
+    <entry file="file://$PROJECT_DIR$/client/big-head/e2e/src/app.po.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/schedule/schedule.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/add-team-member/add-team-member.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/components/roster/roster.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/models/team-member.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/big-head/src/app/services/team.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
