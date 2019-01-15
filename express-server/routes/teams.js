@@ -1,11 +1,5 @@
-// SET UP THE SERVER
-// =============================================================================
-const express = require('express');
-var bodyParser = require('body-parser');
-const app = express();
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
 
+var express = require('express');
 var router = express.Router();
 
 // SET UP THE DATABASE
@@ -17,27 +11,9 @@ const dbUri = "mongodb://localhost:27017/big_head";
 const dbOptions = {useNewUrlParser: true};
 
 
-// INTERCEPT ALL ROUTES
-// =============================================================================
-router.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.header("Access-Control-Allow-Methods", "*");
-    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-    console.log('Processing request: ' + req.originalUrl + ' from: ') + ip;
-    next(); // make sure we go to the next routes and don't stop here
-});~
-
-
-// GET
-// =============================================================================
-router.get('/', function (req, res) {
-    res.json({message: 'Big Head Softball API. All rights reserved.'});
-});
-
 // GET TEAMS
 // =============================================================================
-router.get('/teams', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         MongoClient.connect(dbUri, dbOptions, function (err, client) {
             if (err) {
@@ -65,7 +41,7 @@ router.get('/teams', async (req, res) => {
 
 // GET TEAM
 // =============================================================================
-router.get('/teams/:teamId', async (req, res) => {
+router.get('/:teamId', async (req, res) => {
     try {
         MongoClient.connect(dbUri, dbOptions, function (err, client) {
             if (err) {
@@ -98,7 +74,7 @@ router.get('/teams/:teamId', async (req, res) => {
 
 // PUT
 // =============================================================================
-router.put('/teams/:teamId', async (req, res) => {
+router.put('/:teamId', async (req, res) => {
     try {
         console.log('PUT Called!!');
         MongoClient.connect(dbUri, dbOptions, function (err, client) {
@@ -132,7 +108,7 @@ router.put('/teams/:teamId', async (req, res) => {
 
 // POST
 // =============================================================================
-router.post('/teams/', async (req, res) => {
+router.post('/', async (req, res) => {
     try {
         console.log('POST Called!!');
         MongoClient.connect(dbUri, dbOptions, function (err, client) {
@@ -163,9 +139,5 @@ router.post('/teams/', async (req, res) => {
     }
 });
 
-app.use('/api', router);
+module.exports = router;
 
-
-// START THE SERVER
-// =============================================================================
-app.listen(port, () => console.log('Big Head Softball API ready on port ' + port));

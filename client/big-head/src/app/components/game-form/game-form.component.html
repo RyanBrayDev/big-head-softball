@@ -1,0 +1,26 @@
+<h2>New Game</h2>
+
+<form [formGroup]="gameForm" (ngSubmit)="onSubmit()" class="form-container">
+  <input type="hidden" formControlName="id">
+  <mat-form-field>
+    <input matInput [matDatepicker]="picker" placeholder="Choose a date" formControlName="date">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Time" type="text" formControlName="time">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Location" type="text" formControlName="location">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Field Number" type="text" formControlName="fieldNumber">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Opponent" type="text" formControlName="opponent">
+  </mat-form-field>
+  <div class="button-container">
+    <button (click)="close()" type="button" mat-flat-button>Cancel</button>
+    <button (submit)="onSubmit()" type="submit" mat-flat-button>Save</button>
+  </div>
+</form>
