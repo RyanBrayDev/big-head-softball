@@ -4,8 +4,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComponentsModule } from '@components/components.module';
-import { HomeModule } from '@containers/home/home.module';
-import { TeamModule } from '@containers/team/team.module';
+import { HomeModule } from '@layouts/home/home.module';
+import { TeamModule } from '@layouts/team/team.module';
 
 
 @NgModule({

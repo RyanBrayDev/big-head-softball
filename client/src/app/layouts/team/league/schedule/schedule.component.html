@@ -1,0 +1,19 @@
+<h3>Schedule</h3>
+<mat-list>
+  <mat-list-item *ngFor="let game of schedule">
+    <div class="member-row">
+      <span>{{game.date | date:'shortDate'}} {{game.time}} - {{game.location}} Field # {{game.fieldNumber}}</span>
+      <div class="editPanel">
+        <button mat-button (click)="editLineup(game)">
+          <mat-icon matListIcon>format_list_numbered</mat-icon>
+        </button>
+        <button mat-button (click)="updateGame(game)">
+          <mat-icon matListIcon>create</mat-icon>
+        </button>
+        <button mat-button (click)="deleteGame(game)">
+          <mat-icon matListIcon>clear</mat-icon>
+        </button>
+      </div>
+    </div>
+  </mat-list-item>
+</mat-list>

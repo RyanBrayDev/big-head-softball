@@ -1,0 +1,9 @@
+
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened fixedInViewPort="true" fixedTopGap="50px">        <h2>{{(team$ | async)?.name}}</h2>
+        <p>Manager: {{(team$ | async)?.manager}}</p>
+        <div>
+            <bh-league-selector [leagues]="(team$ | async)?.leagues" (leagueSelected)="onLeagueSelected($event)"></bh-league-selector>
+        </div></mat-sidenav>
+    <mat-sidenav-content><bh-league [league]="league"></bh-league></mat-sidenav-content>
+  </mat-sidenav-container>

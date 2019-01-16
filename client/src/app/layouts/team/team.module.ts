@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule, MatDialogModule, MatIconModule, MatListModule } from '@angular/material';
-import { TeamComponent } from '@containers/team/team.component';
+import { MatButtonModule, MatDialogModule, MatIconModule, MatListModule, MatSidenavModule, MatDrawer } from '@angular/material';
+import { TeamComponent } from '@layouts/team/team.component';
 import { ComponentsModule } from '@components/components.module';
 import { HttpClientModule } from '@angular/common/http';
-import { ScheduleComponent } from '@containers/team/league/schedule/schedule.component';
-import { RosterComponent } from '@containers/team/league/roster/roster.component';
-import { LineupComponent } from '@containers/team/league/lineup/lineup.component';
+import { ScheduleComponent } from '@layouts/team/league/schedule/schedule.component';
+import { RosterComponent } from '@layouts/team/league/roster/roster.component';
+import { LineupComponent } from '@layouts/team/league/lineup/lineup.component';
 import { TeamRoutingModule } from './team.routing.module';
 import { LeagueComponent } from './league/league.component';
 
@@ -20,7 +20,8 @@ import { LeagueComponent } from './league/league.component';
     HttpClientModule,
     MatIconModule,
     MatListModule,
-    TeamRoutingModule
+    TeamRoutingModule,
+    MatSidenavModule,
   ],
   exports: [
     TeamComponent,

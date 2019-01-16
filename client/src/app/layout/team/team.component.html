@@ -1,9 +1,0 @@
-<bh-manager-panel header="{{(team$ | async)?.name}}">
-    <mat-list>
-        <mat-list-item>Manager: {{(team$ | async)?.manager}}</mat-list-item>
-    </mat-list>
-    <bh-league-selector [leagues]="(team$ | async)?.leagues" (leagueSelected)="onLeagueSelected($event)"></bh-league-selector>
-</bh-manager-panel>
-<bh-manager-panel>
-    <bh-league [league]="league"></bh-league>
-</bh-manager-panel>

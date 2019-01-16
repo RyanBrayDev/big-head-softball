@@ -1,7 +1,6 @@
-<h2>Select your Team</h2>
 <mat-form-field>
-  <mat-select [(ngModel)]="selectedTeam" (ngModelChange)="onSelected($event)">
-    <mat-option [value]="null">Select your team...</mat-option>
+  <mat-select [(ngModel)]="selectedTeam" (ngModelChange)="onSelected($event)" placeholder="Select your team...">
+    <mat-option>--</mat-option>
     <mat-option *ngFor="let team of teams" [value]="team">{{team.name}}</mat-option>
   </mat-select>
 </mat-form-field>

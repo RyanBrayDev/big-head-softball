@@ -1,5 +1,5 @@
 <mat-card>
-  <mat-card-title><h2>{{header}}</h2></mat-card-title>
+  <mat-card-title>{{header}}</mat-card-title>
   <ng-content></ng-content>
   <button mat-button *ngIf="onCreate.observers.length > 0" (click)="create()"><mat-icon>add</mat-icon></button>
   <button mat-button *ngIf="onUpdate.observers.length > 0" (click)="update()"><mat-icon>edit</mat-icon></button>

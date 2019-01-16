@@ -10,17 +10,10 @@ import {Subscription, Observable} from 'rxjs';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  teams$: Observable<Team[]>;
 
-  constructor(private teamService: TeamService, private router: Router) {
+  constructor() {
   }
 
   ngOnInit() {
-    this.teams$ = this.teamService.getTeams();
-  }
-
-  onTeamSelected(team: Team) {
-    console.log('You selected: ' + team.name);
-    this.router.navigate(['team', team._id]);
   }
 }
