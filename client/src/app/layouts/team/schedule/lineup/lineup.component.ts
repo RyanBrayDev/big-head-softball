@@ -18,6 +18,7 @@ export class LineupComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log("linneup: " + this.lineup);
   }
 
   close() {

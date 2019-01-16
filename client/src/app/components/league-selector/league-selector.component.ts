@@ -1,5 +1,7 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {League} from '@models/league.model';
+import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { League } from '@models/league.model';
+import { MatSelectionList, MatListOption } from '@angular/material';
+import { SelectionModel } from '@angular/cdk/collections';
 
 @Component({
   selector: 'bh-league-selector',
@@ -9,20 +11,21 @@ import {League} from '@models/league.model';
 export class LeagueSelectorComponent implements OnInit {
 
   @Input() leagues: League[];
-
   @Output() leagueSelected = new EventEmitter<League>();
-
   selectedLeague: League;
+
+  @ViewChild(MatSelectionList) selectionList: MatSelectionList;
 
   constructor() {
   }
 
   ngOnInit() {
+    this.selectionList.selectedOptions = new SelectionModel<MatListOption>(false);
   }
 
-  onSelected(league: League) {
-    if (league) {
-      this.leagueSelected.emit(league);
+  onSelected(leagues: League[]) {
+    if (leagues && leagues.length > 0) {
+      this.leagueSelected.emit(leagues[0]);
     }
   }
 }

@@ -1,0 +1,21 @@
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let game of schedule">
+    <mat-expansion-panel-header>
+      <div class="member-row">
+        <span>{{game.date | date:'shortDate'}} {{game.time}} - {{game.location}} Field # {{game.fieldNumber}}</span>
+        <div class="editPanel">
+          <button mat-button (click)="editLineup(game)">
+            <mat-icon matListIcon>format_list_numbered</mat-icon>
+          </button>
+          <button mat-button (click)="updateGame(game)">
+            <mat-icon matListIcon>create</mat-icon>
+          </button>
+          <button mat-button (click)="deleteGame(game)">
+            <mat-icon matListIcon>clear</mat-icon>
+          </button>
+        </div>
+      </div>
+    </mat-expansion-panel-header>
+    <bh-lineup [lineup]="game.lineup"></bh-lineup>
+  </mat-expansion-panel>
+</mat-accordion>

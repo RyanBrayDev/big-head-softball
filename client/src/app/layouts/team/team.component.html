@@ -1,9 +1,16 @@
-
 <mat-sidenav-container class="example-container">
-    <mat-sidenav mode="side" opened fixedInViewPort="true" fixedTopGap="50px">        <h2>{{(team$ | async)?.name}}</h2>
+    <mat-sidenav mode="side" opened fixedInViewPort="true" fixedTopGap="50px">
+        <h2>{{(team$ | async)?.name}}</h2>
         <p>Manager: {{(team$ | async)?.manager}}</p>
         <div>
             <bh-league-selector [leagues]="(team$ | async)?.leagues" (leagueSelected)="onLeagueSelected($event)"></bh-league-selector>
-        </div></mat-sidenav>
-    <mat-sidenav-content><bh-league [league]="league"></bh-league></mat-sidenav-content>
-  </mat-sidenav-container>
+        </div>
+        <mat-expansion-panel *ngIf="league">
+            <mat-expansion-panel-header>Roster</mat-expansion-panel-header>
+            <bh-roster class="manager" [roster]="league?.roster"></bh-roster>
+        </mat-expansion-panel>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <bh-schedule [schedule]="league?.schedule"></bh-schedule>
+    </mat-sidenav-content>
+</mat-sidenav-container>
