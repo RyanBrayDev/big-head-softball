@@ -1,6 +1,6 @@
 <mat-form-field>
-  <mat-select [(ngModel)]="selectedLeague" (ngModelChange)="onSelected($event)">
-    <mat-option [value]="null">Select league...</mat-option>
+  <mat-select [(ngModel)]="selectedLeague" (ngModelChange)="onSelected($event)" placeholder="Select league...">
+    <mat-option>--</mat-option>
     <mat-option *ngFor="let league of leagues" [value]="league">{{league.year}}-{{league.description}}</mat-option>
   </mat-select>
 </mat-form-field>

@@ -1,3 +1,7 @@
 <mat-toolbar>
-  <a routerLink="home"><span>Big Head Softball</span></a>
+  <span routerLink="/home">Big Head Softball</span>
+  <span class="example-fill-remaining-space"></span>
+  <div class="toolbar-menu">
+    <bh-team-selector [teams]="teams$ | async" (teamSelected)="onTeamSelected($event)" [selectedTeam]="selectedTeam$ | async"></bh-team-selector>
+  </div>
 </mat-toolbar>

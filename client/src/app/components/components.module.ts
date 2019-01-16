@@ -19,10 +19,10 @@ import {
 } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { GameFormComponent } from './game-form/game-form.component';
-import { SummaryComponent } from '../containers/team/summary/summary.component';
 import { ManagerPanelComponent } from './manager-panel/manager-panel.component';
 import { LeagueSelectorComponent } from './league-selector/league-selector.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -42,13 +42,13 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     MatIconModule,
     MatTableModule,
     DragDropModule,
+    RouterModule
   ],
   exports: [
     TeamSelectorComponent,
     TeamMemberFormComponent,
     HeaderComponent,
     GameFormComponent,
-    SummaryComponent,
     ManagerPanelComponent,
     LeagueSelectorComponent,
   ],
@@ -57,7 +57,6 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     TeamMemberFormComponent,
     HeaderComponent,
     GameFormComponent,
-    SummaryComponent,
     ManagerPanelComponent,
     LeagueSelectorComponent,
   ],
