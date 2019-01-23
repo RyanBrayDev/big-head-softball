@@ -1,6 +1,7 @@
-
 var express = require('express');
 var router = express.Router();
+var leaguesRouter = require('./leagues/leagues');
+router.use('/:teamId/leagues', leaguesRouter)
 
 // SET UP THE DATABASE
 // =============================================================================
@@ -8,7 +9,7 @@ var MongoClient = require('mongodb').MongoClient;
 var ObjectId = require('mongodb').ObjectID;
 // const dbUri = "mongodb+srv://big_head:Password1@cluster0-vf3fb.mongodb.net/big_head?retryWrites=true";
 const dbUri = "mongodb://localhost:27017/big_head";
-const dbOptions = {useNewUrlParser: true};
+const dbOptions = { useNewUrlParser: true };
 
 
 // GET TEAMS
@@ -24,7 +25,8 @@ router.get('/', async (req, res) => {
                 console.log('Connected to MongoDB...');
                 const db = client.db("big_head");
                 const collection = db.collection('teams');
-                collection.find({}).toArray(function (err, docs) {
+                var query = { manager: req.header("X-manager") };
+                collection.find(query).toArray(function (err, docs) {
                     console.log("Found the following records");
                     console.log(JSON.stringify(docs))
                     client.close();
@@ -52,7 +54,7 @@ router.get('/:teamId', async (req, res) => {
                 console.log('Connected to MongoDB...');
                 const db = client.db("big_head");
                 const collection = db.collection('teams');
-                collection.findOne({_id: ObjectId(req.param("teamId"))}, function (err, team) {
+                collection.findOne({ _id: ObjectId(req.params.teamId) }, function (err, team) {
                     if (err) {
                         console.log('Error occurred while finding the record...\n', err);
                         res.status(500).send(err);
@@ -85,19 +87,18 @@ router.put('/:teamId', async (req, res) => {
             else {
                 console.log('Connected to MongoDB...');
                 const collection = client.db("big_head").collection('teams');
-                const oId = ObjectId(req.params.teamId);
                 const team = req.body;
-                team._id = oId;
+                team._id = ObjectId(req.params.teamId);
                 console.log('Updating record: ' + team._id);
-                collection.replaceOne({_id: team._id}, team, function (err, res) {
+                collection.replaceOne({ _id: team._id }, team, { upsert: true }, function (err, res) {
                     if (err) {
                         console.log('Error occurred while updating the record...\n', err);
                         res.status(500).send(err);
                     }
+                    console.log('Record updated: ' + team._id);
+                    res.location('api/teams/').status(200).send();
                 });
                 client.close();
-                console.log('Record updated: ' + team._id);
-                res.location('api/teams/' + team._id).status(200).send();
             }
         });
     } catch (e) {
@@ -120,18 +121,49 @@ router.post('/', async (req, res) => {
                 console.log('Connected to MongoDB...');
                 const collection = client.db("big_head").collection('teams');
                 const team = req.body;
-                team._id = ObjectId(req.params.teamId);
-                console.log('Inserting record: ' + team._id);
-                collection.insertOne(team, function (err, res) {
+                console.log('Inserting record');
+                const doc = collection.insertOne(team, function (err, result) {
                     if (err) {
                         console.log('Error occurred while updating the record...\n', err);
                         res.status(500).send(err);
                     }
+                    console.log('Record inserted: ' + result.insertedId);
+                    res.location(req.hostname + 'api/teams/' + result.insertedId).status(200).send();
                 });
                 client.close();
             }
-            console.log('Record updated: ' + req.params._id);
-            res.location('api/teams/' + req.params.teamId).status(200).send();
+        });
+    } catch (e) {
+        console.log("An unexpected error occured: " + e.toString());
+        res.status(500).send(e);
+    }
+});
+
+// DELETE
+// =============================================================================
+router.delete('/:teamId', async (req, res) => {
+    try {
+        console.log('DELETE Called!!');
+        MongoClient.connect(dbUri, dbOptions, function (err, client) {
+            if (err) {
+                console.log('Error occurred while connecting to MongoDB...\n', err);
+                res.status(500).send(err);
+            }
+            else {
+                console.log('Connected to MongoDB...');
+                const collection = client.db("big_head").collection('teams');
+                teamId = ObjectId(req.params.teamId);
+                console.log('Deleting record: ' + teamId);
+                const doc = collection.deleteOne({ _id: teamId }, function (err, result) {
+                    if (err) {
+                        console.log('Error occurred while deleting the record...\n', err);
+                        res.status(500).send(err);
+                    }
+                    console.log('Record deleted: ' + teamId);
+                    res.status(200).send();
+                });
+                client.close();
+            }
         });
     } catch (e) {
         console.log("An unexpected error occured: " + e.toString());

@@ -2,66 +2,45 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, throwError, Observable } from 'rxjs';
 import { Team } from '@models/team.model';
-import { catchError } from 'rxjs/operators';
-import { League } from '@app/models/league.model';
+import { catchError, tap } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class TeamService {
-  private domain = 'localhost:3000';
-  private teamsUrl = `http://${this.domain}/api/teams/`;
+  
+  private teamsUrl = `${environment.apiUrl}/teams/`;
+  
+  private httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json',
+      'X-manager': 'Ryan Bray'
+    })
+  };
 
-  selectedTeam$: BehaviorSubject<Team> = new BehaviorSubject<Team>(null);
+  cache: Team[] = null;
 
   constructor(private http: HttpClient) {
   }
 
-  getTeams(): Observable<Team[]> {
-    console.log('Loading teams...');
-    return this.http.get<Team[]>(this.teamsUrl)
-  }
-
-  selectTeam(team: Team) {
-    console.log(`Selecting team: ${team.name}`);
-    this.selectedTeam$.next(team);
-  }
-
-  selectTeamById(teamId: string): Observable<Team> {
-    const team$ = this.http.get<Team>(this.teamsUrl + teamId);
-    team$.subscribe(this.selectedTeam$);
-    return 
-  }
-
-  findLeague(teamId:string, leagueId: string): League {
-    const team = this.getTeam(teamId);
-    return team && this.selectedTeam$.value.leagues.find(league => league.id === leagueId);
+  getTeams(): Observable<Team[]> {  
+    return this.http.get<Team[]>(this.teamsUrl, this.httpOptions);
   }
 
   getTeam(teamId: string): Observable<Team> {
-    const team$ = this.http.get<Team>(this.teamsUrl + teamId);
-    team$.subscribe(this.selectedTeam$);
-    return team$;
+    return this.http.get<Team>(this.teamsUrl + teamId);
   }
 
-  updateTeam(team: Team) {
-    console.log(`Updating: ${team.name}`);
-    const url = this.teamsUrl + team._id;
-    const httpOptions = {
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-      })
-    };
-    this.http.put<Team>(url, team, httpOptions).pipe(
+  addTeam(team: Team): Observable<Team>{
+    return this.http.post<Team>(this.teamsUrl, team, this.httpOptions).pipe(
       catchError(this.handleError)
-    ).subscribe(val => {
-      console.log('PUT call successful value returned in body', val);
-    },
-      response => {
-        console.log('PUT call in error', response);
-      },
-      () => {
-        this.getTeam(team._id);
-        console.log('The PUT observable is now completed.');
-      });
+    );
+  }
+
+  updateTeam(team: Team): Observable<Team> {
+    const url = this.teamsUrl + team._id;
+    return this.http.put<Team>(url, team, this.httpOptions).pipe(
+      catchError(this.handleError)
+    );
   }
 
   private handleError(error: HttpErrorResponse) {

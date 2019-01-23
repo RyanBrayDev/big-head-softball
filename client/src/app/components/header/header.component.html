@@ -2,6 +2,7 @@
   <span routerLink="/home">Big Head Softball</span>
   <span class="example-fill-remaining-space"></span>
   <div class="toolbar-menu">
-    <bh-team-selector [teams]="teams$ | async" (teamSelected)="onTeamSelected($event)" [selectedTeam]="selectedTeam$ | async"></bh-team-selector>
+    <bh-team-selector></bh-team-selector>
+    <button (click)="createTeam()">New Team</button>
   </div>
 </mat-toolbar>

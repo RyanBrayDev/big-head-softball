@@ -1,30 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { TeamService } from '@app/services/team.service';
-import { Router } from '@angular/router';
 import { Team } from '@app/models/team.model';
+import { TeamFormComponent } from '../team-form/team-form.component';
+import { MatDialogRef, MatDialog } from '@angular/material';
 
 @Component({
   selector: 'bh-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   teams$: Observable<Team[]>;
-  selectedTeam$: Observable<Team>;
+  private dialogRef: MatDialogRef<TeamFormComponent>;
 
-  constructor(private teamService: TeamService, private router: Router) {
+  constructor(private dialogService: MatDialog) {
   }
 
-  ngOnInit() {
-    this.teams$ = this.teamService.getTeams();
-    this.selectedTeam$ = this.teamService.selectedTeam$;
+  createTeam() {
+    console.log('create team clicked');
+    this.dialogRef = this.dialogService.open(TeamFormComponent);
+    this.dialogRef.componentInstance.closeRequested.subscribe(() => this.dialogRef.close());
+    this.dialogRef.componentInstance.submitted.subscribe(() => {
+    });
   }
-
-  onTeamSelected(team: Team) {
-    console.log('You selected: ' + team.name);
-    this.router.navigate(['team', team._id]);
-  }
-
 }

@@ -1,6 +1,9 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {Team} from '@models/team.model';
-import { BehaviorSubject } from 'rxjs';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Team } from '@models/team.model';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { SelectedTeamService } from '@app/services/selected-team.service';
+import { TeamService } from '@app/services/team.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'bh-team-selector',
@@ -8,20 +11,24 @@ import { BehaviorSubject } from 'rxjs';
   styleUrls: ['./team-selector.component.scss']
 })
 export class TeamSelectorComponent implements OnInit {
-  @Input() teams: Team[];
-  @Input() selectedTeam: Team;
-  @Output() teamSelected = new EventEmitter<Team>();
+  teams$: Observable<Team[]>;
+  selectedTeam$: Observable<Team>;
 
-  constructor() {
-  }
+  constructor(
+    private teamService: TeamService,
+    private selectedTeamService: SelectedTeamService,
+    private router: Router
+  ) { }
 
   ngOnInit() {
-    console.log("selecting in header" + this.selectedTeam);
+    this.teams$ = this.teamService.getTeams();
+    this.selectedTeam$ = this.selectedTeamService.selectedTeam$;
   }
 
   onSelected(team: Team) {
     if (team) {
-      this.teamSelected.emit(team);
+      this.selectedTeamService.selectTeam(team);
+      this.router.navigate(['team', team._id]);
     }
   }
 }

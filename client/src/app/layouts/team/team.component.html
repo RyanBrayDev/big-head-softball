@@ -5,12 +5,9 @@
         <div>
             <bh-league-selector [leagues]="(team$ | async)?.leagues" (leagueSelected)="onLeagueSelected($event)"></bh-league-selector>
         </div>
-        <mat-expansion-panel *ngIf="league">
-            <mat-expansion-panel-header>Roster</mat-expansion-panel-header>
-            <bh-roster class="manager" [roster]="league?.roster"></bh-roster>
-        </mat-expansion-panel>
     </mat-sidenav>
     <mat-sidenav-content>
         <bh-schedule [schedule]="league?.schedule"></bh-schedule>
+        <bh-roster [roster]="league?.roster"></bh-roster>
     </mat-sidenav-content>
 </mat-sidenav-container>

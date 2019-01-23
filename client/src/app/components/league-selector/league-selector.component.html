@@ -9,4 +9,7 @@
     <mat-list-option *ngFor="let league of leagues" [value]="league">
         {{league.year}}-{{league.description}}
     </mat-list-option>
+    <mat-action-row>
+        <button mat-button (click)="addLeague()">Add New League</button>
+      </mat-action-row>
   </mat-selection-list>

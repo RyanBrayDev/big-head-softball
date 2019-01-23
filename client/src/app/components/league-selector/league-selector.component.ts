@@ -28,4 +28,8 @@ export class LeagueSelectorComponent implements OnInit {
       this.leagueSelected.emit(leagues[0]);
     }
   }
+
+  addLeague(){
+    
+  }
 }

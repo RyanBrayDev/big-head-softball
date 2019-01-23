@@ -1,0 +1,16 @@
+<h2>Team</h2>
+
+<form [formGroup]="teamForm" (ngSubmit)="onSubmit()" class="form-container">
+  <input type="hidden" formControlName="_id">
+  <mat-form-field>
+    <input matInput placeholder="Name" type="text" formControlName="name">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Manager" type="text" formControlName="manager">
+  </mat-form-field>
+
+  <div class="button-container">
+    <button (click)="close()" type="button" mat-flat-button>Cancel</button>
+    <button (submit)="onSubmit()" type="submit" mat-flat-button>Save</button>
+  </div>
+</form>

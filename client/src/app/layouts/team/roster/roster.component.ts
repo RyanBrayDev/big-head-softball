@@ -22,7 +22,7 @@ export class RosterComponent implements OnInit {
     //this.leagueSubscription = this.teamService.selectedLeague$.subscribe(league => this.roster = league ? league.roster : null);
   }
 
-  createTeamMember() {
+  addTeamMember() {
     this.dialogRef = this.dialogService.open(TeamMemberFormComponent);
     this.dialogRef.componentInstance.closeRequested.subscribe(() => this.dialogRef.close());
   }

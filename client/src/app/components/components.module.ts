@@ -23,6 +23,7 @@ import { ManagerPanelComponent } from './manager-panel/manager-panel.component';
 import { LeagueSelectorComponent } from './league-selector/league-selector.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { RouterModule } from '@angular/router';
+import { TeamFormComponent } from './team-form/team-form.component';
 
 @NgModule({
   imports: [
@@ -59,9 +60,11 @@ import { RouterModule } from '@angular/router';
     GameFormComponent,
     ManagerPanelComponent,
     LeagueSelectorComponent,
+    TeamFormComponent,
   ],
   entryComponents: [
     TeamMemberFormComponent,
+    TeamFormComponent,
     GameFormComponent,
   ],
 })

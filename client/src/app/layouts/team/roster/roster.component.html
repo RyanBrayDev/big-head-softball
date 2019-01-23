@@ -1,16 +1,28 @@
+<div *ngIf="roster">
+  <h2>Roster</h2>
 
-  <mat-list>
-    <mat-list-item *ngFor="let member of roster">
-      <div class="member-row">
-        <span>{{member.name}}</span>
-        <div class="editPanel">
-          <button mat-button (click)="updateMember(member)">
-            <mat-icon>create</mat-icon>
-          </button>
-          <button mat-button (click)="deleteMember(member)">
-            <mat-icon>clear</mat-icon>
-          </button>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>{{ roster.length }} Players</mat-expansion-panel-header>
+
+    <mat-list>
+      <mat-list-item *ngFor="let member of roster">
+        <div class="member-row">
+          <span>{{member.name}}</span>
+          <div class="editPanel">
+            <button mat-button (click)="updateMember(member)">
+              <mat-icon>create</mat-icon>
+            </button>
+            <button mat-button (click)="deleteMember(member)">
+              <mat-icon>clear</mat-icon>
+            </button>
+          </div>
         </div>
-      </div>
-    </mat-list-item>
-  </mat-list>
+      </mat-list-item>
+    </mat-list>
+    <!-- <bh-roster class="manager" [roster]="league?.roster"></bh-roster> -->
+
+    <mat-action-row>
+      <button mat-button (click)="addTeamMember()">Add Team Member</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</div>

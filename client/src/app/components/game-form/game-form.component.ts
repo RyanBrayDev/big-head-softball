@@ -16,7 +16,7 @@ export class GameFormComponent implements OnInit {
   @Output() submitted = new EventEmitter<TeamMember>();
   @Output() closeRequested = new EventEmitter<TeamMember>();
 
-  constructor(private teamService: TeamService) {
+  constructor() {
   }
 
   ngOnInit() {
