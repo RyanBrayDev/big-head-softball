@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { TeamService } from '@services/team.service';
+import { TeamService } from '@app/services/team/team.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription, Observable, BehaviorSubject } from 'rxjs';
 import { Team } from '@models/team.model';
 import { League } from '@app/models/league.model';
-import { SelectedTeamService } from '@app/services/selected-team.service';
+import { SelectedTeamService } from '@app/services/team/selected-team.service';
 
 @Component({
   selector: 'bh-team',

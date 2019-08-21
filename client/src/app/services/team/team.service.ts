@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
-import { BehaviorSubject, throwError, Observable } from 'rxjs';
+import { throwError, Observable } from 'rxjs';
 import { Team } from '@models/team.model';
 import { catchError, tap } from 'rxjs/operators';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class TeamService {
@@ -13,8 +13,10 @@ export class TeamService {
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json',
-      'X-manager': 'Ryan Bray'
-    })
+    }),
+    params: {
+      manager: 'Ryan Bray'
+    }
   };
 
   cache: Team[] = null;
@@ -22,7 +24,7 @@ export class TeamService {
   constructor(private http: HttpClient) {
   }
 
-  getTeams(): Observable<Team[]> {  
+  getTeams(): Observable<Team[]> {
     return this.http.get<Team[]>(this.teamsUrl, this.httpOptions);
   }
 

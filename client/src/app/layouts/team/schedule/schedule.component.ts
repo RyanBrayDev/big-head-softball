@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, Input } from '@angular/core';
 import { Game } from '@models/game.model';
 import { MatDialog, MatDialogRef } from '@angular/material';
 import { GameFormComponent } from '@components/game-form/game-form.component';
-import { TeamService } from '@services/team.service';
+import { TeamService } from '@app/services/team/team.service';
 
 @Component({
   selector: 'bh-schedule',

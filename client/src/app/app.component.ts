@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {TeamService} from '@services/team.service';
+import {TeamService} from '@app/services/team/team.service';
 
 @Component({
   selector: 'bh-root',

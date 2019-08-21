@@ -3,7 +3,7 @@ import {TeamMember} from '@models/team-member.model';
 import {MatDialog, MatDialogRef} from '@angular/material';
 import {TeamMemberFormComponent} from '@components/team-member-form/team-member-form.component';
 import {Subscription} from 'rxjs';
-import {TeamService} from '@services/team.service';
+import {TeamService} from '@app/services/team/team.service';
 
 @Component({
   selector: 'bh-manager-panel',

@@ -2,7 +2,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
 import {Game} from '@models/game.model';
 import {TeamMember} from '@models/team-member.model';
-import {TeamService} from '@services/team.service';
+import {TeamService} from '@app/services/team/team.service';
 
 @Component({
   selector: 'bh-add-game',

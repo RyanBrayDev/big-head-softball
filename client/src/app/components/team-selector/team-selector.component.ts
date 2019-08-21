@@ -1,8 +1,8 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Team } from '@models/team.model';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { SelectedTeamService } from '@app/services/selected-team.service';
-import { TeamService } from '@app/services/team.service';
+import { SelectedTeamService } from '@app/services/team/selected-team.service';
+import { TeamService } from '@app/services/team/team.service';
 import { Router } from '@angular/router';
 
 @Component({

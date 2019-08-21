@@ -2,7 +2,7 @@ import {Component, OnDestroy, OnInit, Input} from '@angular/core';
 import {TeamMember} from '@models/team-member.model';
 import {TeamMemberFormComponent} from '@components/team-member-form/team-member-form.component';
 import {MatDialog, MatDialogRef} from '@angular/material';
-import {TeamService} from '@services/team.service';
+import {TeamService} from '@app/services/team/team.service';
 import {Subscription} from 'rxjs';
 
 @Component({
